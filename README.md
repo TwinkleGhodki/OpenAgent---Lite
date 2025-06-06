@@ -4,7 +4,7 @@
 **OpenAgent-Lite: A Goal-Driven Desktop Automation Assistant**
 
 ## 🧾 Objective:
-Create an open-source agentic AI assistant in Python that can automate desktop tasks using natural language input. The assistant should understand goals, break them into subtasks, and perform actions autonomously—serving as an open alternative to traditional RPA tools.
+Create an open-source agentic AI assistant in Python that can automate desktop tasks using natural language input. The assistant should understand goals, break them into subtasks, and perform actions autonomously—serving as an open alternative to traditional Robotic Process Automation (RPA) tools.
 
 ---
 
