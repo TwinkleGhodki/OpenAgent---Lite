@@ -17,11 +17,71 @@ Create an open-source agentic AI assistant in Python that can automate desktop t
 ---
 
 ## Key Features to Implement:
-- A CLI or basic web UI to input tasks/goals in English.
-- Task breakdown using a small local LLM (e.g., via Ollama).
-- Automate actions: opening applications, clicking, typing, scheduling.
-- Save task execution logs and maintain basic task memory.
-- Clear documentation and code hosted on GitHub.
+### 1. User Interface
+- Develop a **Command Line Interface (CLI)** for initial interaction.
+- Optionally, build a **basic Web UI** using frameworks like:
+  - [Flask](https://flask.palletsprojects.com/)
+  - [Streamlit](https://streamlit.io/)
+- Users should input tasks or goals in **plain English**, such as:
+  > "Open YouTube in browser and search for AI tutorials."
+
+---
+
+### 2. Intelligent Task Breakdown
+- Integrate with a **small local LLM** (via Ollama) to:
+  - Interpret the user's goal.
+  - Decompose it into logical, actionable subtasks.
+  - Extract necessary parameters (URLs, file paths, time, etc.).
+- Example:
+  > Goal: “Email me a summary of files in the Documents folder every Monday at 9 AM”
+  >
+  > Subtasks:
+  > - Get list of files in the Documents folder.
+  > - Format the list as a summary.
+  > - Compose and send the email.
+  > - Schedule the task for Mondays at 9 AM.
+
+---
+
+### 3. Core Desktop Automation
+Use automation libraries to execute tasks:
+
+#### Features:
+- **Application Control**: Open and close desktop apps.
+- **Mouse & Keyboard Simulation**: Click buttons, type text using `pyautogui`.
+- **File & Folder Operations**:
+  - Rename, move, delete, list directory contents using Python's `os` and `shutil`.
+- **Web Automation**:
+  - Use `selenium` or `playwright` to:
+    - Navigate to websites.
+    - Fill out forms.
+    - Download files.
+    - Scrape content if required.
+
+---
+
+### 4. Scheduled Task Support
+Enable the agent to perform tasks at specific times or on a recurring basis:
+- Use scheduling libraries such as `schedule` or `APScheduler`.
+- Example scheduled tasks:
+  - “Clean up Downloads folder every Friday.”
+  - “Send system status report daily at 8 PM.”
+
+---
+
+### 5. Execution Logging
+- **Execution Logs**:
+  - Log timestamp, action taken, success/failure status, and any error messages.
+  - Store logs in a text or JSON file for later review.
+
+---
+
+### 6. Documentation
+- Prepare clear, complete project documentation:
+  -  Create a separate git branch with your name to update code.
+  - `README.md` with setup instructions and usage examples.
+  - Inline comments in source code for clarity.
+  - Folder structure documentation (e.g., `/src`, `/logs`, `/docs`).
 
 ---
 
