@@ -1,4 +1,4 @@
-# OpenAgent---Lite
+# OpenAgent---Lite (Work in Progress)
 OpenAgent-Lite is a lightweight desktop automation tool powered by Large Language Models (LLMs). It allows users to automate tasks like web search, file management, email sending, and PDF downloads using natural language instructions.
 
 ##Features
