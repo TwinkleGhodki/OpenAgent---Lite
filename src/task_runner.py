@@ -29,18 +29,18 @@ import os
 from task_utils import take_screenshot, send_email, web_scrape  
 
 def scheduled_screenshot():
-    print("📷 Scheduled screenshot task running...")
+    print("Scheduled screenshot task running...")
     take_screenshot()
 
 def scheduled_email():
-    print("📧 Scheduled email task running...")
+    print("Scheduled email task running...")
     subject = "Automated Update"
     body = "This is a scheduled message sent from the automation system."
     to_email = "twinkle.ghodki04@gmail.com"
     send_email(subject, body, to_email)
 
 def scheduled_scrape():
-    print("🌐 Scheduled web scraping running...")
+    print("Scheduled web scraping running...")
     url = "https://example.com"
     web_scrape(url)
 
