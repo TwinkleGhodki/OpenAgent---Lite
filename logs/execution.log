@@ -1,0 +1,151 @@
+2025-06-19 20:36:48.641018 - Open YouTube - Success
+2025-06-19 20:45:53.771144 - Search YouTube for 'dsa' - Success
+2025-06-19 21:39:54.325903 - Search YouTube for 'dsa' - Success
+2025-06-19 21:42:45.742514 - Search YouTube for 'dsa playlist' - Success
+2025-06-19 21:50:48.566488 - Download PDFs from https://example.com/research-papers.html - No PDFs Found
+2025-06-19 21:59:53.929594 - Send Email - Failed - (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7490a46b5bcsm227609b3a.25 - gsmtp')
+2025-06-20 09:49:51.947579 - Search YouTube for 'dsa playlist' - Success
+2025-06-23 13:58:03.451296 - Open YouTube - Success
+2025-06-23 13:58:11.326800 - Open YouTube - Success
+2025-06-23 13:58:33.976249 - Search YouTube for 'DSA playlist' - Success
+2025-06-23 13:58:40.225901 - Open YouTube - Success
+2025-06-23 13:59:10.908716 - Search YouTube for 'DSA playlist' - Success
+2025-06-23 13:59:16.773719 - Open YouTube - Success
+2025-06-23 17:21:19.092044 - Open YouTube - Success
+2025-06-23 17:21:41.755860 - Open YouTube - Success
+2025-06-23 17:23:15.515226 - Search YouTube for 'dsa playlist' - Success
+2025-06-23 18:09:25.579037 - Open YouTube - Success
+2025-06-23 18:09:55.292116 - Search YouTube for 'c++ playlist' - Success
+2025-06-23 18:10:27.971831 - Search YouTube for 'c++ playlist' - Success
+2025-06-23 18:51:41.226184 - Take Screenshot - Success
+2025-06-23 18:52:56.573327 - Search Google for 'software developers' - Success
+2025-06-23 18:55:52.674069 - Open Google - Success
+2025-06-23 18:56:09.739073 - Search Google for 'computers' - Success
+2025-06-23 18:56:10.047439 - Take Screenshot - Success
+2025-06-23 19:43:31.517268 - Search Google for 'C plus plus language' - Success
+2025-06-23 22:44:41.628046 - Open YouTube - Success
+2025-06-23 22:46:03.602014 - Search YouTube for 'cakes playlist' - Success
+2025-06-23 23:41:07.958521 - Web Scrape www.w3schools.com - Failed - Invalid URL 'www.w3schools.com': No scheme supplied. Perhaps you meant https://www.w3schools.com?
+2025-06-23 23:41:37.633641 - Web Scrape https://www.w3schools.com - Success
+2025-06-23 23:46:27.227178 - Take Screenshot - Success
+2025-06-23 23:47:15.685633 - Open YouTube - Success
+2025-06-23 23:48:19.448611 - Search Google for 'books' - Success
+2025-06-23 23:49:52.032722 - Write to File New Project of Ai - Success
+2025-06-23 23:52:02.808059 - Take Screenshot - Success
+2025-06-23 23:56:55.212432 - Search YouTube for 'Cakes' - Success
+2025-06-23 23:56:55.430692 - Take Screenshot - Success
+2025-06-23 23:57:24.165696 - Search YouTube for 'Cakes' - Success
+2025-06-23 23:57:24.272694 - Take Screenshot - Success
+2025-06-23 23:57:24.390403 - Take Screenshot - Success
+2025-06-24 00:01:49.593573 - Open Google - Success
+2025-06-24 00:01:51.895421 - Take Screenshot - Success
+2025-06-24 00:16:22.465028 - Take Screenshot - Success
+2025-06-24 00:17:19.146148 - Take Screenshot - Success
+2025-06-24 00:18:09.587150 - Take Screenshot - Success
+2025-06-24 00:18:15.267240 - Open Google - Success
+2025-06-24 00:18:27.187449 - Search Google for 'OpenGoogleTakeScreenshot' - Success
+2025-06-24 00:21:09.448458 - Open Google - Success
+2025-06-24 00:21:11.703650 - Take Screenshot - Success
+2025-06-24 00:21:11.710743 - Rename Files - Failed - [WinError 3] The system cannot find the path specified: 'path/to/directory'
+2025-06-24 13:20:39.184942 - Open Google - Success
+2025-06-24 13:21:15.096662 - Search Google for 'lion' - Success
+2025-06-24 13:22:24.763105 - Download Images for 'puppy' - Success
+2025-06-24 13:37:34.194142 - Download Images for 'dogs' - Success
+2025-06-24 13:43:22.831068 - Download Images for 'dogs' - Success
+2025-06-24 13:49:24.243872 - Download Images for 'dog' - Success
+2025-06-24 13:56:15.052323 - Download Images for 'dog' - Success
+2025-06-24 14:02:45.962171 - Download Images for 'dogs' - Success
+2025-06-24 14:10:58.910927 - Download Images for 'dogs' - Success
+2025-06-24 14:11:43.265711 - Download Images for 'dogs' - Success
+2025-06-24 14:14:00.040291 - Download Images for 'dogs' - Success
+2025-06-24 15:11:18.519167 - Download Images for 'dogs' - Success
+2025-06-24 15:15:02.046984 - Download Images for 'dogs' - Success
+2025-06-24 15:16:29.142214 - Download Images for 'mountain' - Success
+2025-06-24 15:17:16.622410 - Download Images for 'flowers' - Success
+2025-06-24 15:20:00.742724 - Search Google for 'land' - Success
+2025-06-24 15:20:03.580715 - Take Screenshot - Success
+2025-06-24 15:20:03.746892 - Take Screenshot - Success
+2025-06-24 15:21:32.518020 - Search Google for 'flowers' - Success
+2025-06-24 15:21:35.071669 - Take Screenshot - Success
+2025-06-24 15:22:30.969095 - Search YouTube for 'chocolates' - Success
+2025-06-24 15:24:24.676942 - Search Google for 'cricket' - Success
+2025-06-24 15:24:27.111193 - Take Screenshot - Success
+2025-06-24 15:25:53.928927 - Search Google for 'football' - Success
+2025-06-24 15:25:56.238316 - Take Screenshot - Success
+2025-06-24 15:30:18.808930 - Open Google - Success
+2025-06-24 16:05:57.204185 - Search YouTube for 'cakes' - Success
+2025-06-24 16:05:57.610012 - Take Screenshot - Success
+2025-06-24 16:16:38.130188 - Download PDFs from https://www.researchgate.net/topic/Automata-Theory/publications - No PDFs Found
+2025-06-24 16:17:07.708805 - Download Images for 'house' - Success
+2025-06-24 16:20:44.628903 - Open Google - Success
+2025-06-24 16:20:52.671101 - Search Google for 'house' - Success
+2025-06-29 17:50:03.132004 - Search Google for 'pdf download' - Success
+2025-06-29 17:57:22.169527 - Search Google for 'Downloads PDF' - Success
+2025-06-29 17:58:58.528854 - Download PDFs from spreadsheet-url - Failed - Invalid URL 'spreadsheet-url': No scheme supplied. Perhaps you meant https://spreadsheet-url?
+2025-06-29 18:31:26.099318 - Write to File example.txt - Success
+2025-06-29 18:46:24.469503 - Web Scrape for https://quotes.toscrape.com - Success
+2025-06-29 19:08:27.031270 - Send Email - Failed - (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-b34e300468esm5932473a12.7 - gsmtp')
+2025-06-29 20:27:42.337018 - Send Email - Failed - (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-74af56d91d7sm6673049b3a.141 - gsmtp')
+2025-06-29 20:29:03.126899 - Send Email - Failed - (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-315f539e6ccsm11253728a91.17 - gsmtp')
+2025-06-29 20:39:54.809952 - Send Email - Failed - (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-74af5573e71sm7255418b3a.98 - gsmtp')
+2025-06-29 20:47:05.919856 - Send Email - Success
+2025-06-29 20:55:53.724600 - Send Email - Success
+2025-06-29 21:52:59.858025 - Take Screenshot - Success
+2025-06-29 21:54:00.041918 - Take Screenshot - Success
+2025-06-29 21:55:00.166328 - Take Screenshot - Success
+2025-06-29 21:56:00.282489 - Take Screenshot - Success
+2025-06-29 21:57:04.998112 - Send Email - Success
+2025-06-29 21:57:05.086566 - Take Screenshot - Success
+2025-06-29 21:58:05.204688 - Take Screenshot - Success
+2025-06-29 21:59:05.324206 - Take Screenshot - Success
+2025-06-29 22:01:25.794144 - Search Google for 'openagent python' - Success
+2025-06-29 22:01:26.101561 - Take Screenshot - Success
+2025-06-29 22:04:46.013702 - Search Google for 'cakes' - Failed - Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64907cda5+78885]
+	GetHandleVerifier [0x0x7ff64907ce00+78976]
+	(No symbol) [0x0x7ff648e39bca]
+	(No symbol) [0x0x7ff648e259b5]
+	(No symbol) [0x0x7ff648e4a9ca]
+	(No symbol) [0x0x7ff648ec05e5]
+	(No symbol) [0x0x7ff648ee0b42]
+	(No symbol) [0x0x7ff648eb8963]
+	(No symbol) [0x0x7ff648e816b1]
+	(No symbol) [0x0x7ff648e82443]
+	GetHandleVerifier [0x0x7ff649354eed+3061101]
+	GetHandleVerifier [0x0x7ff64934f33d+3037629]
+	GetHandleVerifier [0x0x7ff64936e592+3165202]
+	GetHandleVerifier [0x0x7ff64909730e+186766]
+	GetHandleVerifier [0x0x7ff64909eb3f+217535]
+	GetHandleVerifier [0x0x7ff6490859b4+114740]
+	GetHandleVerifier [0x0x7ff649085b69+115177]
+	GetHandleVerifier [0x0x7ff64906c368+10728]
+	BaseThreadInitThunk [0x0x7ffef750e8d7+23]
+	RtlUserThreadStart [0x0x7ffef873c34c+44]
+
+2025-06-29 22:04:46.145233 - Take Screenshot - Success
+2025-06-29 22:05:33.568689 - Search Google for 'cakes' - Failed - Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64907cda5+78885]
+	GetHandleVerifier [0x0x7ff64907ce00+78976]
+	(No symbol) [0x0x7ff648e399fc]
+	(No symbol) [0x0x7ff648e807df]
+	(No symbol) [0x0x7ff648eb8a52]
+	(No symbol) [0x0x7ff648eb3413]
+	(No symbol) [0x0x7ff648eb24d9]
+	(No symbol) [0x0x7ff648e05d55]
+	GetHandleVerifier [0x0x7ff649354eed+3061101]
+	GetHandleVerifier [0x0x7ff64934f33d+3037629]
+	GetHandleVerifier [0x0x7ff64936e592+3165202]
+	GetHandleVerifier [0x0x7ff64909730e+186766]
+	GetHandleVerifier [0x0x7ff64909eb3f+217535]
+	(No symbol) [0x0x7ff648e04dca]
+	GetHandleVerifier [0x0x7ff6494745e8+4238440]
+	BaseThreadInitThunk [0x0x7ffef750e8d7+23]
+	RtlUserThreadStart [0x0x7ffef873c34c+44]
+
+2025-06-29 22:10:26.724814 - Open Google - Success
+2025-06-29 22:10:35.167794 - Search Google for 'cake' - Success
+2025-06-29 22:10:35.350529 - Take Screenshot - Success
