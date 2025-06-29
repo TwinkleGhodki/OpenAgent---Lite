@@ -26,8 +26,7 @@ import time
 import threading
 import os
 
-# Import your existing task functions
-from task_utils import take_screenshot, send_email, web_scrape  # adjust if paths differ
+from task_utils import take_screenshot, send_email, web_scrape  
 
 def scheduled_screenshot():
     print("📷 Scheduled screenshot task running...")
@@ -48,7 +47,7 @@ def scheduled_scrape():
 def start_scheduler():
     print("Scheduler started. Press Ctrl+C to exit.")
 
-    # 🕐 Schedule your tasks
+    # Scheduling tasks
     schedule.every(1).minutes.do(scheduled_screenshot)
     schedule.every(5).minutes.do(scheduled_email)
     schedule.every(10).minutes.do(scheduled_scrape)
@@ -62,7 +61,7 @@ def start_scheduler():
     scheduler_thread.start()
 
 
-# 1: Open YouTube
+# 1: Opening YouTube
 def open_youtube():
     try:
         driver = get_driver()
@@ -71,7 +70,7 @@ def open_youtube():
     except Exception as e:
         log_action("Open YouTube", f"Failed - {e}")
 
-# 2: Rename Files
+# 2: Renaming Files
 def rename_files(folder_path):
     try:
         for count, filename in enumerate(os.listdir(folder_path)):
@@ -83,7 +82,7 @@ def rename_files(folder_path):
     except Exception as e:
         log_action("Rename Files", f"Failed - {e}")
 
-# 3: Delete Temp Files
+# 3: Deleting Temp Files
 def delete_temp_files(folder_path):
     try:
         for filename in os.listdir(folder_path):
@@ -93,7 +92,7 @@ def delete_temp_files(folder_path):
     except Exception as e:
         log_action("Delete Temp Files", f"Failed - {e}")
 
-# 4: Search YouTube
+# 4: Searching on YouTube
 def search_youtube(search_query):
     try:
         driver = get_driver()
@@ -107,7 +106,7 @@ def search_youtube(search_query):
     except Exception as e:
         log_action(f"Search YouTube for '{search_query}'", f"Failed - {e}")
 
-# 5: Download PDFs
+# 5: Downloading PDFs
 def download_pdfs(url, download_folder='downloads'):
     try:
         os.makedirs(download_folder, exist_ok=True)
@@ -129,7 +128,7 @@ def download_pdfs(url, download_folder='downloads'):
     except Exception as e:
         log_action(f"Download PDFs from {url}", f"Failed - {e}")
 
-# 6: Send Email
+# 6: Sending Email
 def send_email(subject, body, to_email, attachment_path=None):
     try:
         sender_email = "twinkle.ghodki04@gmail.com"
@@ -159,7 +158,7 @@ def send_email(subject, body, to_email, attachment_path=None):
     except Exception as e:
         log_action("Send Email", f"Failed - {e}")
 
-# 7: Open Google
+# 7: Opening Google
 def open_google():
     try:
         driver = get_driver()
@@ -168,7 +167,7 @@ def open_google():
     except Exception as e:
         log_action("Open Google", f"Failed - {e}")
 
-# 8: Search Google
+# 8: Searching on Google
 def search_google(query):
     try:
         driver = get_driver()
@@ -182,7 +181,7 @@ def search_google(query):
     except Exception as e:
         log_action(f"Search Google for '{query}'", f"Failed - {e}")
 
-# 9: Download Images using Pexels API
+# 9: Downloading Images using Pexels API
 def download_images(query, num_images=1):
     try:
         folder_path = "downloaded_images"
@@ -225,7 +224,7 @@ def download_images(query, num_images=1):
         log_action(f"Download Images for '{query}'", f"Failed - {e}")
 
 
-# 10: Take Screenshot
+# 10: Taking Screenshot
 def take_screenshot():
     try:
         screenshot = ImageGrab.grab()
@@ -235,7 +234,7 @@ def take_screenshot():
     except Exception as e:
         log_action("Take Screenshot", f"Failed - {e}")
 
-# 11: Write to File
+# 11: Writing to a File
 def write_to_file(file_path, content):
     try:
         with open(file_path, 'w') as f:
