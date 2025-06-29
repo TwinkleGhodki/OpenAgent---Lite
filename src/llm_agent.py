@@ -58,11 +58,11 @@ Output: (Nothing)
     return parse_subtasks(content)
 
 def parse_subtasks(content):
-    # Match valid function calls line-by-line
+    # Matching valid function calls line-by-line
     pattern = r'(?:^|\n)(open_youtube\(\)|search_youtube\(.*?\)|open_google\(\)|search_google\(.*?\)|rename_files\(.*?\)|delete_temp_files\(.*?\)|download_pdfs\(.*?\)|send_email\(.*?\)|download_images\(.*?\)|take_screenshot\(\)|write_to_file\(.*?\)|web_scrape\(.*?\))'
     matches = re.findall(pattern, content, flags=re.MULTILINE)
 
-    # Filter out calls with any dummy placeholders
+    # Filtering out calls with any dummy placeholders
     blacklist_keywords = [
         'query', 'filepath', 'url', 'content', 'example.com',
         'spreadsheet', 'attachment', 'subject', 'to_email'
