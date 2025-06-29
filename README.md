@@ -21,12 +21,18 @@ OpenAgent-Lite is a lightweight desktop automation tool powered by Large Languag
 ## Tech Stack
  Component        -        Technology                  
 ---------------------------------------------------------------------
- Language         -         Python                      
+ Language         -         Python  
+ 
  LLM          -            [Ollama](https://ollama.com/) (`phi3` model) 
- Voice Recognition       -       `speech_recognition`        
+ 
+ Voice Recognition       -       `speech_recognition`   
+ 
  Web Automation        -       `selenium`, `webdriver_manager` 
- Email Sending         -       `smtplib`, Gmail SMTP       
- Scheduling          -       `schedule`, `time`          
+ 
+ Email Sending         -       `smtplib`, Gmail SMTP  
+ 
+ Scheduling          -       `schedule`, `time` 
+ 
  Screenshot Tool        -      `pyautogui`                 
 
 
