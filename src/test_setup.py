@@ -10,11 +10,11 @@ print("Python libraries are working!")
 def say_hello():
     print(f"Hello! Current time is: {datetime.datetime.now()}")
 
-# Test pyautogui screen size
+# Testing pyautogui screen size
 width, height = pyautogui.size()
 print(f"Screen size detected: {width} x {height}")
 
-# Test scheduling
+# Testing scheduling
 schedule.every(2).seconds.do(say_hello)
 
 print("Running scheduler test for 10 seconds...")
