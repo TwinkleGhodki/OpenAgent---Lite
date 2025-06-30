@@ -59,3 +59,8 @@ OpenAgent-Lite is a lightweight desktop automation tool powered by Large Languag
 6. Rename files in C:/Users/YourName/Downloads
 7. Delete temp files in C:/Temp
 
+## Author
+Twinkle Ghodki
+3rd year
+Btech CSE CORE
+
